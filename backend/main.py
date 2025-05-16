@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title="Store Project API",
-    description="API for makeup store management",
+    description="API Tienda Maquillaje",
     version="1.0.0"
 )
 
@@ -18,4 +18,4 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to Store Project API"} 
+    return {"message": "Welcome to  Tienda de Maquillaje Project API"} 
